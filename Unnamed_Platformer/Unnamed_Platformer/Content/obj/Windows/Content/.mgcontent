@@ -4,9 +4,9 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/stijn/source/repos/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/background.jpg</File>
-    <File>C:/Users/stijn/source/repos/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/ground.jpg</File>
-    <File>C:/Users/stijn/source/repos/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/mario_sprite.png</File>
+    <File>C:/Users/stijn/Source/Repos/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/background.jpg</File>
+    <File>C:/Users/stijn/Source/Repos/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/ground.jpg</File>
+    <File>C:/Users/stijn/Source/Repos/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/mario_sprite.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

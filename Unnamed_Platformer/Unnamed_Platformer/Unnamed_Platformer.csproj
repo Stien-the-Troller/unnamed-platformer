@@ -41,6 +41,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GameObjects\Block.cs" />
     <Compile Include="GameObjects\Ground.cs" />
     <Compile Include="GameObjects\Player.cs" />
     <Compile Include="UnnamedPlatformer.cs" />
@@ -75,6 +76,7 @@
   <ItemGroup>
     <Content Include="Content\background.jpg" />
     <Content Include="Content\ground.jpg" />
+    <Content Include="Content\block_sprite.jpg" />
     <Content Include="Content\mario_sprite.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>
