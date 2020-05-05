@@ -7,16 +7,11 @@ using System.Threading.Tasks;
 
 namespace Unnamed_Platformer.GameObjects
 {
-    class Block : SpriteGameObject
+    class Heart : SpriteGameObject
     {
-        public Block(Vector2 position) : base("block_sprite") 
+        public Heart(Vector2 position): base("heart")
         {
             this.position = position;
-        }
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
-            //Console.WriteLine("wtf");
         }
     }
 }

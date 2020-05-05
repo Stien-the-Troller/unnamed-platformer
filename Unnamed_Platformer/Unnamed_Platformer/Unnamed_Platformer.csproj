@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="GameObjects\Block.cs" />
     <Compile Include="GameObjects\Ground.cs" />
+    <Compile Include="GameObjects\Heart.cs" />
+    <Compile Include="GameObjects\Level1.cs" />
+    <Compile Include="GameObjects\Life.cs" />
     <Compile Include="GameObjects\Player.cs" />
     <Compile Include="UnnamedPlatformer.cs" />
     <Compile Include="GameManagement\AnimatedGameObject.cs" />
@@ -77,12 +80,14 @@
     <Content Include="Content\background.jpg" />
     <Content Include="Content\ground.jpg" />
     <Content Include="Content\block_sprite.jpg" />
+    <Content Include="Content\heart.png" />
     <Content Include="Content\mario_sprite.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
+    <None Include="Content\GameFont.spritefont" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

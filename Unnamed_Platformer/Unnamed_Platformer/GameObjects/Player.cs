@@ -16,31 +16,38 @@ namespace Unnamed_Platformer.GameObjects
         public Player() : base("mario_sprite")
         {
             origin = new Vector2(sprite.Width / 2, sprite.Height / 2);
-            position = new Vector2(50,400);
+            position = new Vector2(100,400);
         }
         public override void HandleInput(InputHelper inputHelper)
         {
-            velocity.X = 0;
+            velocity.X *= 0.9f;
             base.HandleInput(inputHelper);
-            if (inputHelper.IsKeyDown(Keys.Left)) 
+            if (!(velocity.X < -500))
             {
-                velocity.X = -10;
+                if (inputHelper.IsKeyDown(Keys.Left))
+                {
+                    velocity.X += -50;
+                }
             }
-            if (inputHelper.IsKeyDown(Keys.Right))
+            if (!(velocity.X > 500))
             {
-                velocity.X = 10;
+                if (inputHelper.IsKeyDown(Keys.Right))
+                {
+                    velocity.X += 50;
+                }
             }
             if (grounded)
             {
                 if (inputHelper.IsKeyDown(Keys.Space))
                 {
-                    velocity.Y = -300;
+                    velocity.Y = -400;
                 }
             }
         }
         public override void Update(GameTime gameTime)
         {
-            base.Update(gameTime);
+            //base.Update(gameTime);
+            position.Y += velocity.Y * (float)gameTime.ElapsedGameTime.TotalSeconds;
             velocity.Y += gravity;
         }
         public void Grounded()

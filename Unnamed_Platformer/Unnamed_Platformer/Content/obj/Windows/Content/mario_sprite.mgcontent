@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/stijn/Source/Repos/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/mario_sprite.png</SourceFile>
+  <SourceFile>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/mario_sprite.png</SourceFile>
   <SourceTime>2020-05-04T19:20:05.0329329+02:00</SourceTime>
-  <DestFile>C:/Users/stijn/Source/Repos/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/bin/Windows/Content/mario_sprite.xnb</DestFile>
-  <DestTime>2020-05-04T19:20:37.8337969+02:00</DestTime>
+  <DestFile>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/bin/Windows/Content/mario_sprite.xnb</DestFile>
+  <DestTime>2020-05-05T21:29:11.9027093+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
