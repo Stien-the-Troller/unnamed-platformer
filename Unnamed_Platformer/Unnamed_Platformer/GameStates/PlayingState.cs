@@ -118,6 +118,7 @@ namespace Unnamed_Platformer.GameStates
             if (player.CollidesWith(level1.finish))
             {
                 UnnamedPlatformer.GameStateManager.SwitchTo("victory");
+                Reset();
             }
             foreach (SpriteGameObject obstakel in level1.blocks.Children)
             {
