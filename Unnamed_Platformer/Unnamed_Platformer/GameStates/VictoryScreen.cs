@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Unnamed_Platformer.GameStates
 {
-    class Titlescreen: GameObjectList
+    class VictoryScreen  :GameObjectList
     {
-        public Titlescreen(): base()
+        public VictoryScreen() : base()
         {
-            this.Add(new SpriteGameObject("titlescreen"));
+            this.Add(new SpriteGameObject("victoryscreen"));
         }
 
         public override void HandleInput(InputHelper inputHelper)

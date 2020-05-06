@@ -52,7 +52,7 @@
     <Compile Include="GameObjects\Player.cs" />
     <Compile Include="GameStates\GameOver.cs" />
     <Compile Include="GameStates\Titlescreen.cs" />
-    <Compile Include="GameStates\Victory.cs" />
+    <Compile Include="GameStates\VictoryScreen.cs" />
     <Compile Include="UnnamedPlatformer.cs" />
     <Compile Include="GameManagement\AnimatedGameObject.cs" />
     <Compile Include="GameManagement\Animation.cs" />
@@ -84,13 +84,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\background.jpg" />
+    <Content Include="Content\gameover.jpg" />
     <Content Include="Content\ground.jpg" />
     <Content Include="Content\block_sprite.jpg" />
     <Content Include="Content\heart.png" />
     <Content Include="Content\enemy.png" />
     <Content Include="Content\flag.png" />
     <Content Include="Content\bullet.png" />
+    <Content Include="Content\titlescreen.jpg" />
     <Content Include="Content\mario_sprite.png" />
+    <Content Include="Content\victoryscreen.jpg" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>

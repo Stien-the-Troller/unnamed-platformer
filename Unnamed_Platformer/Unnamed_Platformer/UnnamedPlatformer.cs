@@ -25,8 +25,8 @@ namespace Unnamed_Platformer
             GameStateManager.AddGameState("playingstate", new PlayingState());
             GameStateManager.AddGameState("gameover", new GameOver());
             GameStateManager.AddGameState("titlescreen", new Titlescreen());
-            GameStateManager.AddGameState("victory", new Victory());
-            gameStateManager.SwitchTo("playingstate");
+            GameStateManager.AddGameState("victory", new VictoryScreen());
+            gameStateManager.SwitchTo("titlescreen");
         }
     }
 }

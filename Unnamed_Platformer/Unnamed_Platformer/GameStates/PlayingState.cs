@@ -17,6 +17,9 @@ namespace Unnamed_Platformer.GameStates
         public GameObjectList obstakels = new GameObjectList();
         public Level1 level1 = new Level1();
         public Bullet bullet = new Bullet();
+        public TextGameObject pointGet = new TextGameObject("GameFont");
+        public int points = 0;
+        public int pointTimer = 0;
         public PlayingState() : base()
         {
             this.Add(background);
@@ -25,9 +28,26 @@ namespace Unnamed_Platformer.GameStates
             this.Add(obstakels);
             this.Add(level1);
             this.Add(bullet);
+            this.Add(pointGet);
             obstakels.Add(new Ground());
 
-
+            pointGet.Text = "+10";
+            pointGet.Position = new Vector2(-100, -100);
+            bullet.Position = new Vector2(-100, -100);
+            pointGet.Color = Color.Purple;
+        }
+        public override void Reset()
+        {
+            base.Reset();
+            level1.Position = new Vector2(0,0);
+            foreach(Heart heart in life.hearts.Children)
+            {
+                heart.Visible = true;
+            }
+            foreach(Enemy enemy in level1.enemies.Children)
+            {
+                enemy.Visible = true;
+            }
         }
         public override void HandleInput(InputHelper inputHelper)
         {
@@ -50,6 +70,15 @@ namespace Unnamed_Platformer.GameStates
             player.righthit = false;
             level1.Position -= new Vector2(player.Velocity.X, 0) * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
+            if (!(pointGet.Position.X == -100)) {
+                pointTimer++;
+                if (pointTimer >= 10)
+                {
+                    pointGet.Position = new Vector2(-100, -100);
+                    pointTimer = 0;
+                }
+                
+            }
             foreach(SpriteGameObject enemy in level1.enemies.Children)
             {
                 if (enemy.Visible)
@@ -68,14 +97,18 @@ namespace Unnamed_Platformer.GameStates
                         }
                         if (take)
                         {
+                            Reset();
                             UnnamedPlatformer.GameStateManager.SwitchTo("gameover");
                         }
                     }
                     if (bullet.CollidesWith(enemy))
                     {
                         enemy.Visible = false;
-                        bullet.Position = new Vector2(-10, -10);
+                        bullet.Position = new Vector2(-100, -100);
                         bullet.Velocity = new Vector2(0, 0);
+                        pointGet.Position = enemy.Position;
+                        points += 10;
+                        life.points.Text = "point total = " + points;
                     }
                 }
             }
