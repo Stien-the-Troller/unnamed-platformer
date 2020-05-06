@@ -40,7 +40,8 @@ namespace Unnamed_Platformer.GameStates
         {
             base.Reset();
             level1.Position = new Vector2(0,0);
-            foreach(Heart heart in life.hearts.Children)
+            player.Position = new Vector2(100, 400);
+            foreach (Heart heart in life.hearts.Children)
             {
                 heart.Visible = true;
             }
@@ -48,6 +49,8 @@ namespace Unnamed_Platformer.GameStates
             {
                 enemy.Visible = true;
             }
+            points = 0;
+            life.points.Text = "point total = " + 0;
         }
         public override void HandleInput(InputHelper inputHelper)
         {
