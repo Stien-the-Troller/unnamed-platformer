@@ -51,3 +51,6 @@ C:\Users\stijn\Documents\GitHub\unnamed-platformer\Unnamed_Platformer\Unnamed_Pl
 C:\Users\stijn\Documents\GitHub\unnamed-platformer\Unnamed_Platformer\Unnamed_Platformer\bin\Windows\x86\Debug\Content\block_sprite.xnb
 C:\Users\stijn\Documents\GitHub\unnamed-platformer\Unnamed_Platformer\Unnamed_Platformer\bin\Windows\x86\Debug\Content\heart.xnb
 C:\Users\stijn\Documents\GitHub\unnamed-platformer\Unnamed_Platformer\Unnamed_Platformer\bin\Windows\x86\Debug\Content\GameFont.xnb
+C:\Users\stijn\Documents\GitHub\unnamed-platformer\Unnamed_Platformer\Unnamed_Platformer\bin\Windows\x86\Debug\Content\enemy.xnb
+C:\Users\stijn\Documents\GitHub\unnamed-platformer\Unnamed_Platformer\Unnamed_Platformer\bin\Windows\x86\Debug\Content\flag.xnb
+C:\Users\stijn\Documents\GitHub\unnamed-platformer\Unnamed_Platformer\Unnamed_Platformer\bin\Windows\x86\Debug\Content\bullet.xnb

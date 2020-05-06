@@ -23,6 +23,9 @@ namespace Unnamed_Platformer
 
             // TODO: use this.Content to load your game content here
             GameStateManager.AddGameState("playingstate", new PlayingState());
+            GameStateManager.AddGameState("gameover", new GameOver());
+            GameStateManager.AddGameState("titlescreen", new Titlescreen());
+            GameStateManager.AddGameState("victory", new Victory());
             gameStateManager.SwitchTo("playingstate");
         }
     }

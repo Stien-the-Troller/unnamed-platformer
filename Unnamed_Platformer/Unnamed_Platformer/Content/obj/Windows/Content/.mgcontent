@@ -6,12 +6,18 @@
   <SourceFiles>
     <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/background.jpg</File>
     <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/block_sprite.jpg</File>
+    <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/bullet.png</File>
+    <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/enemy.png</File>
+    <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/flag.png</File>
     <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/GameFont.spritefont</File>
     <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/ground.jpg</File>
     <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/heart.png</File>
     <File>C:/Users/stijn/Documents/GitHub/unnamed-platformer/Unnamed_Platformer/Unnamed_Platformer/Content/mario_sprite.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

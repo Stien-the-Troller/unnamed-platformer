@@ -42,11 +42,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="GameObjects\Block.cs" />
+    <Compile Include="GameObjects\Bullet.cs" />
+    <Compile Include="GameObjects\Enemy.cs" />
     <Compile Include="GameObjects\Ground.cs" />
     <Compile Include="GameObjects\Heart.cs" />
     <Compile Include="GameObjects\Level1.cs" />
+    <Compile Include="GameObjects\LevelEnd.cs" />
     <Compile Include="GameObjects\Life.cs" />
     <Compile Include="GameObjects\Player.cs" />
+    <Compile Include="GameStates\GameOver.cs" />
+    <Compile Include="GameStates\Titlescreen.cs" />
+    <Compile Include="GameStates\Victory.cs" />
     <Compile Include="UnnamedPlatformer.cs" />
     <Compile Include="GameManagement\AnimatedGameObject.cs" />
     <Compile Include="GameManagement\Animation.cs" />
@@ -81,6 +87,9 @@
     <Content Include="Content\ground.jpg" />
     <Content Include="Content\block_sprite.jpg" />
     <Content Include="Content\heart.png" />
+    <Content Include="Content\enemy.png" />
+    <Content Include="Content\flag.png" />
+    <Content Include="Content\bullet.png" />
     <Content Include="Content\mario_sprite.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>
